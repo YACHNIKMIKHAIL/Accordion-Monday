@@ -1,36 +1,44 @@
-import React, {useState} from 'react';
+import React from 'react';
+
 import './App.css';
+import Accordion from "./components/Accordion/Accordion";
+import {Rating} from "./components/Rating/Rating";
 import {OnOff} from "./components/OnOffStyle/OnOffStyle";
-import {UncontrolledRating} from "./components/UncontrolledRating/UncontrolledRating";
-import {StarRating} from "./components/UncontrolledStars/UncontrolledStars";
-import UncontrolledAccordion from "./components/UncontrolledAccordion/UncontrolledAccordion";
-import Accordion, {AccordionCollapsedType} from "./components/Accordion/Accordion";
-import {Rating, RatingValueType} from "./components/Rating/Rating";
-import {ControlledOnOff, OnOffValueType} from "./components/OnOffStyle/ControlledOnOffStyle";
-import {UncontrolledOnOff} from "./components/OnOffStyle/UncontrolledOnOffStyle";
-import {on} from "cluster";
+import SelfControlledAccordion from "./components/SelfControlledAccordion/SelfControlledAccordion";
+import {StarRating} from "./components/selfOffStars/selfOffStars";
 
 
 function App() {
     console.log('App  rendering')
-
-    let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
-    let [accordionCollapsed, setAccordionCollapsed] = useState<AccordionCollapsedType>(false)
-    let [switchOn, setSwitchOn] = useState<OnOffValueType>(true)
-
     return (
-        <div className={'AppWrap'}>
-            <UncontrolledRating/>
-            <Rating value={ratingValue} onClick={setRatingValue}/>
-            <Accordion titleValue={'MENU'}
-                       collapsed={accordionCollapsed}
-                       onClick={setAccordionCollapsed}/>
+        <div>
+            {/*<img*/}
+            {/*    src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRRE3QXJdtV-fX_C8kljp0x7OJiaF0RTKjA&usqp=CAU"}*/}
+            {/*    alt={" dream bike "}/>*/}
+            {/*<PageTitle title={"This is App component"}/>*/}
+            {/*<PageTitle title={"Ritka!"}/>*/}
+            {/*Article 1*/}
+            {/*<Accordion titleValue={"Menu"} collapsed={true}/>*/}
+            {/*<Accordion titleValue={"Users"} collapsed={false}/>*/}
+            {/*Article 2*/}
+            {/*<Rating value={0}/>*/}
+            {/*<Rating value={1}/>*/}
+            {/*<Rating value={2}/>*/}
+            {/*<Rating value={3}/>*/}
+            {/*<Rating value={4}/>*/}
+            {/*<Rating value={5}/>*/}
 
-            {/*<ControlledOnOff on={switchOn} change={setSwitchOn}/>*/}
-            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
-            <UncontrolledAccordion titleValue={'Bla Bla'}/>
+
+            <StarRating value={0}/>
+            <StarRating value={1}/>
+            <StarRating value={2}/>
+            <StarRating value={3}/>
+            <StarRating value={4}/>
+            <StarRating value={5}/>
 
 
+            {/*<OnOff />*/}
+            {/*<SelfControlledAccordion   titleValue={'hook'}/>*/}
         </div>
     );
 }
