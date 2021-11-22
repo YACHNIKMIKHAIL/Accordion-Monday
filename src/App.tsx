@@ -8,10 +8,12 @@ import Accordion, {AccordionCollapsedType} from "./components/Accordion/Accordio
 import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {ControlledOnOff, OnOffValueType} from "./components/OnOffStyle/ControlledOnOffStyle";
 import {UncontrolledOnOff} from "./components/OnOffStyle/UncontrolledOnOffStyle";
-import {on} from "cluster";
+
 
 
 function App() {
+    console.log('App  rendering')
+    console.log('App  rendering')
     console.log('App  rendering')
 
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
