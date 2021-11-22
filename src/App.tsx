@@ -20,11 +20,7 @@ function App() {
 
     return (
         <div className={'AppWrap'}>
-
-
             <UncontrolledRating/>
-
-
             <Rating value={ratingValue} onClick={setRatingValue}/>
             <Accordion titleValue={'MENU'}
                        collapsed={accordionCollapsed}
