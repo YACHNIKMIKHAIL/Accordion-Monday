@@ -15,6 +15,8 @@ function App() {
     console.log('App  rendering')
     console.log('App  rendering')
     console.log('App  rendering')
+    console.log('App  rendering')
+    console.log('App  rendering')
 
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed] = useState<AccordionCollapsedType>(false)
