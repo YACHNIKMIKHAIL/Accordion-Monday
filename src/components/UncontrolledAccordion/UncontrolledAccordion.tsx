@@ -5,7 +5,7 @@ type AccordionPropsType = {
     // collapsed: boolean
 }
 
-export function SelfControlledAccordion(props: AccordionPropsType) {
+export function UncontrolledAccordion(props: AccordionPropsType) {
 
     console.log('SelfControlledAccordion renderind!');
     let [collapsed, setCollapsed] = useState(true);
@@ -13,8 +13,7 @@ export function SelfControlledAccordion(props: AccordionPropsType) {
     console.log('Accordion  rendered')
     return (
         <div>
-            <AccordionTitle title={props.titleValue}/>
-            <button onClick={() => setCollapsed(!collapsed)}>TOGGLE</button>
+            <AccordionTitle title={props.titleValue} onClick={() => setCollapsed(!collapsed)}/>
             {!collapsed && <AccordionBody/>}
 
         </div>
@@ -23,12 +22,13 @@ export function SelfControlledAccordion(props: AccordionPropsType) {
 
 type AccordionTitlePropsType = {
     title: string
+    onClick: () => void
 }
 
 export function AccordionTitle(props: AccordionTitlePropsType) {
     console.log('AccordionTitle rendering')
     return (
-        <h3>
+        <h3 onClick={() => props.onClick()}>
             -- {props.title} --</h3>
     );
 }
@@ -44,4 +44,4 @@ export function AccordionBody() {
     );
 }
 
-export default SelfControlledAccordion;
+export default UncontrolledAccordion;
