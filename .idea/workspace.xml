@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="070fd489-fa17-474f-9bf5-57a5cc0eeba6" name="Changes" comment="init commit">
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,9 +11,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21HMIzQ4QKx6L6tp8PgdTpWeQkZ" />
+  <component name="ProjectId" id="21HhilW8Er4kkGyKdjET6O1tAVi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,21 +38,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="070fd489-fa17-474f-9bf5-57a5cc0eeba6" name="Changes" comment="" />
-      <created>1637593484533</created>
+      <changelist id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="" />
+      <created>1637604052702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637593484533</updated>
-      <workItem from="1637593487573" duration="2034000" />
+      <updated>1637604052702</updated>
+      <workItem from="1637604058794" duration="689000" />
+      <workItem from="1637697917895" duration="26000" />
     </task>
-    <task id="LOCAL-00001" summary="init commit">
-      <created>1637593527647</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1637593527647</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,9 +61,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
