@@ -1,7 +1,7 @@
 import React from "react";
 
 export type AccordionCollapsedType=boolean
-type AccordionPropsType = {
+export type AccordionPropsType = {
     titleValue: string
     collapsed: AccordionCollapsedType
     onClick:(collapsed:AccordionCollapsedType)=>void
