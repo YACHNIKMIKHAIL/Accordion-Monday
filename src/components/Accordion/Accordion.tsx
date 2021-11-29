@@ -1,10 +1,19 @@
 import React from "react";
 
-export type AccordionCollapsedType=boolean
+export type AccordionCollapsedType = boolean
 export type AccordionPropsType = {
     titleValue: string
     collapsed: AccordionCollapsedType
-    onClick:(collapsed:AccordionCollapsedType)=>void
+    /**
+     * коллбэк вызывается когда что-то кликнуто, вот и всё!
+     * @param value кликнутого айтема
+     */
+    onClick: (value: AccordionCollapsedType) => void
+    onChange: () => void
+    /**
+     * my comments: bla-bla)
+     */
+    items: Array<{ title: string, value: number }>
 }
 
 export function Accordion(props: AccordionPropsType) {
@@ -14,7 +23,7 @@ export function Accordion(props: AccordionPropsType) {
             <AccordionTitle title={props.titleValue}
                             onClick={props.onClick}
                             collapsed={props.collapsed}/>
-            {!props.collapsed && <AccordionBody/>}
+            {!props.collapsed && <AccordionBody items={props.items} onClick={props.onClick}/>}
 
         </div>
     )
@@ -22,24 +31,27 @@ export function Accordion(props: AccordionPropsType) {
 
 type AccordionTitlePropsType = {
     title: string
-    onClick:(collapsed:AccordionCollapsedType)=>void
-    collapsed:AccordionCollapsedType
+    onClick: (collapsed: AccordionCollapsedType) => void
+    collapsed: AccordionCollapsedType
 }
 
 export function AccordionTitle(props: AccordionTitlePropsType) {
     console.log('AccordionTitle rendering')
     return (
-        <h3 onClick={()=>props.onClick(!props.collapsed)}> -- {props.title} -- controlled </h3>
+        <h3 onClick={() => props.onClick(!props.collapsed)}> -- {props.title} -- controlled </h3>
     );
 }
 
-export function AccordionBody() {
+type AccordionBodyPropsType={
+    items: Array<{ title: string, value: number }>
+    onClick: (value: AccordionCollapsedType) => void
+}
+export function AccordionBody(props:AccordionBodyPropsType) {
     console.log('AccordionBody rendering')
+
     return (
         <ul>
-            <li>1yo </li>
-            <li>2yo yo</li>
-            <li>3yo yo yo</li>
+            {props.items.map(i=><li>{i.title}</li>)}
         </ul>
     );
 }

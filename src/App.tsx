@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import './App.css';
-import {OnOff} from "./components/OnOffStyle/OnOffStyle";
+import {OnOff} from "./components/OnOff/OnOffStyle";
 import {UncontrolledRating} from "./components/UncontrolledRating/UncontrolledRating";
 import {StarRating} from "./components/UncontrolledStars/UncontrolledStars";
 import UncontrolledAccordion from "./components/UncontrolledAccordion/UncontrolledAccordion";
 import Accordion, {AccordionCollapsedType} from "./components/Accordion/Accordion";
 import {Rating, RatingValueType} from "./components/Rating/Rating";
-import {ControlledOnOff, OnOffValueType} from "./components/OnOffStyle/ControlledOnOffStyle";
-import {UncontrolledOnOff} from "./components/OnOffStyle/UncontrolledOnOffStyle";
+import {ControlledOnOff, OnOffValueType} from "./components/OnOff/ControlledOnOffStyle";
+import {UncontrolledOnOff} from "./components/OnOff/UncontrolledOnOffStyle";
 
 
 
