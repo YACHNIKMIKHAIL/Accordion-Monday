@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="commit 2.0">
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff/UncontrolledOnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.stories.tsx" afterDir="false" />
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="commit 2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOffStyle/ControlledOnOffStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/ControlledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOffStyle/OnOffStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOffStyle/UncontrolledOnOffStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff/UncontrolledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledRating/UncontrolledRating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +31,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UncontrolledRating" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,6 +52,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.eject" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -107,7 +109,8 @@
       <workItem from="1637945220451" duration="869000" />
       <workItem from="1637950526768" duration="1112000" />
       <workItem from="1638024145023" duration="8932000" />
-      <workItem from="1638095781196" duration="10622000" />
+      <workItem from="1638095781196" duration="11366000" />
+      <workItem from="1638693168871" duration="3267000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638043326137</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 2.1">
+      <created>1638190327144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638190327145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +162,7 @@
     <MESSAGE value="commit 1" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2.0" />
+    <MESSAGE value="commit 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2.1" />
   </component>
 </project>

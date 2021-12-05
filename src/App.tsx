@@ -1,14 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
-import {OnOff} from "./components/OnOff/OnOffStyle";
 import {UncontrolledRating} from "./components/UncontrolledRating/UncontrolledRating";
-import {StarRating} from "./components/UncontrolledStars/UncontrolledStars";
 import UncontrolledAccordion from "./components/UncontrolledAccordion/UncontrolledAccordion";
 import Accordion, {AccordionCollapsedType} from "./components/Accordion/Accordion";
 import {Rating, RatingValueType} from "./components/Rating/Rating";
-import {ControlledOnOff, OnOffValueType} from "./components/OnOff/ControlledOnOffStyle";
-import {UncontrolledOnOff} from "./components/OnOff/UncontrolledOnOffStyle";
-
+import {OnOffValueType} from "./components/OnOff/ControlledOnOff";
+import {UncontrolledOnOff} from "./components/UncontrolledOnOff/UncontrolledOnOff";
 
 
 function App() {
@@ -21,14 +18,20 @@ function App() {
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed] = useState<AccordionCollapsedType>(false)
     let [switchOn, setSwitchOn] = useState<OnOffValueType>(true)
+    const onClick=(value:string)=>console.log(value)
 
     return (
         <div className={'AppWrap'}>
-            <UncontrolledRating/>
+            <UncontrolledRating
+                onChange={function(value: RatingValueType): void {
+                throw new Error('Function not implemented.');
+            } }/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
             <Accordion titleValue={'MENU'}
                        collapsed={accordionCollapsed}
-                       onClick={setAccordionCollapsed}/>
+                       onClick={setAccordionCollapsed}
+                       onClickX={onClick}
+                       items={[]}/>
 
             {/*<ControlledOnOff on={switchOn} change={setSwitchOn}/>*/}
             <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
