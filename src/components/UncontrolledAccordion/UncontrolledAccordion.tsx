@@ -5,24 +5,30 @@ type AccordionPropsType = {
 
 }
 
-type ActionType={
-    type:string
+type ActionType = {
+    type: string
 }
-const reducer=(state:boolean,action:ActionType)=>{
-
-    return state
+const TOGGLE_CONSTANT = 'TOGGLE-COLLAPSED'
+const reducer = (state: boolean, action: ActionType) => {
+    switch (action.type) {
+        case TOGGLE_CONSTANT:
+            return !state
+        default:
+            return state
+    }
 }
 
 export function UncontrolledAccordion(props: AccordionPropsType) {
 
     console.log('SelfControlledAccordion renderind!');
     // let [collapsed, setCollapsed] = useState(true);
-    let [collapsed, setCollapsed] = useReducer(reducer,false);
+    let [collapsed, dispatch] = useReducer(reducer, false);
 
     console.log('Accordion  rendered')
     return (
         <div>
-            <AccordionTitle title={props.titleValue} onClick={() => setCollapsed(!collapsed)}/>
+            {/*<AccordionTitle title={props.titleValue} onClick={() => setCollapsed(!collapsed)}/>*/}
+            <AccordionTitle title={props.titleValue} onClick={() => dispatch({type: TOGGLE_CONSTANT})}/>
             {!collapsed && <AccordionBody/>}
 
         </div>
