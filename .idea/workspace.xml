@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="commit 3 start">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="commit 3 reducer &amp;&amp; switch">
       <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <workItem from="1638024145023" duration="8932000" />
       <workItem from="1638095781196" duration="11366000" />
       <workItem from="1638693168871" duration="15231000" />
-      <workItem from="1639301412974" duration="1777000" />
+      <workItem from="1639301412974" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639305853527</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit 3 reducer &amp;&amp; switch">
+      <created>1639306905292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639306905293</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
     <MESSAGE value="commit 2.2!" />
     <MESSAGE value="commit 2.3" />
     <MESSAGE value="commit 3 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3 start" />
+    <MESSAGE value="commit 3 reducer &amp;&amp; switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 3 reducer &amp;&amp; switch" />
   </component>
 </project>
