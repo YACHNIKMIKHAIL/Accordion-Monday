@@ -1,14 +1,23 @@
-import React, {useState} from "react";
+import React, {useReducer, useState} from "react";
 
 type AccordionPropsType = {
     titleValue: string
 
 }
 
+type ActionType={
+    type:string
+}
+const reducer=(state:boolean,action:ActionType)=>{
+
+    return state
+}
+
 export function UncontrolledAccordion(props: AccordionPropsType) {
 
     console.log('SelfControlledAccordion renderind!');
-    let [collapsed, setCollapsed] = useState(true);
+    // let [collapsed, setCollapsed] = useState(true);
+    let [collapsed, setCollapsed] = useReducer(reducer,false);
 
     console.log('Accordion  rendered')
     return (
