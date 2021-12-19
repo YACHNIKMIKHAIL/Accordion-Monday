@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="unit memo commit">
-      <change afterPath="$PROJECT_DIR$/src/components/React.memo/React.memo.stories.tsx" afterDir="false" />
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="working commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/React.memo/React.memo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/React.memo/React.memo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <workItem from="1638693168871" duration="15231000" />
       <workItem from="1639301412974" duration="5070000" />
       <workItem from="1639484613197" duration="3215000" />
-      <workItem from="1639910268788" duration="1008000" />
+      <workItem from="1639910268788" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639390563593</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working commit">
+      <created>1639911477843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639911477844</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +252,7 @@
     <MESSAGE value="commit 3 reducer short" />
     <MESSAGE value="unit tests commit" />
     <MESSAGE value="unit memo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit memo commit" />
+    <MESSAGE value="working commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="working commit" />
   </component>
 </project>
