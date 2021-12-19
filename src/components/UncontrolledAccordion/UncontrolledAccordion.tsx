@@ -1,5 +1,5 @@
 import {reducer, TOGGLE_COLLAPSED} from "./Reducer";
-import {useReducer} from "react";
+import React, {useReducer} from "react";
 
 type AccordionPropsType = {
     titleValue: string
@@ -16,7 +16,7 @@ export function UncontrolledAccordion(props: AccordionPropsType) {
         <div>
             {/*<AccordionTitle title={props.titleValue} onClick={() => setCollapsed(!collapsed)}/>*/}
             <AccordionTitle title={props.titleValue} onClick={() => dispatch({type: TOGGLE_COLLAPSED})}/>
-            {!state.collapsed && <AccordionBody/>}
+            {!state.collapsed && <AccordionBody title={'xxx'} onClick={() => dispatch({type: TOGGLE_COLLAPSED})}/>}
 
         </div>
     )
@@ -27,7 +27,7 @@ type AccordionTitlePropsType = {
     onClick: () => void
 }
 
-export function AccordionTitle(props: AccordionTitlePropsType) {
+export function AccordionTitleSecret(props: AccordionTitlePropsType) {
     console.log('AccordionTitle rendering')
     return (
         <h3 onClick={() => props.onClick()}>
@@ -35,7 +35,9 @@ export function AccordionTitle(props: AccordionTitlePropsType) {
     );
 }
 
-export function AccordionBody() {
+const AccordionTitle = React.memo(AccordionTitleSecret)
+
+export function AccordionBodySecret(props: any) {
     console.log('AccordionBody rendering')
     return (
         <ul>
@@ -45,5 +47,7 @@ export function AccordionBody() {
         </ul>
     );
 }
+
+const AccordionBody = React.memo(AccordionTitleSecret)
 
 export default UncontrolledAccordion;
