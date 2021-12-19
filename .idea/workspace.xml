@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="commit 3 reducer short">
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/Reducer.test.tsx" afterDir="false" />
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="unit memo commit">
+      <change afterPath="$PROJECT_DIR$/src/components/React.memo/React.memo.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/Reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/Reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UncontrolledAccordion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -47,6 +45,8 @@
       <recent name="$PROJECT_DIR$/src/stories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/React.memo" />
+      <recent name="$PROJECT_DIR$/src/stories" />
       <recent name="$PROJECT_DIR$/src/components/UncontrolledAccordion" />
       <recent name="$PROJECT_DIR$/src/components/UncontrolledOnOff" />
     </key>
@@ -55,6 +55,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
+    <configuration name="build-storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -88,6 +98,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.build-storybook" />
         <item itemvalue="npm.eject" />
         <item itemvalue="npm.start" />
       </list>
@@ -114,7 +125,9 @@
       <workItem from="1638024145023" duration="8932000" />
       <workItem from="1638095781196" duration="11366000" />
       <workItem from="1638693168871" duration="15231000" />
-      <workItem from="1639301412974" duration="4760000" />
+      <workItem from="1639301412974" duration="5070000" />
+      <workItem from="1639484613197" duration="3215000" />
+      <workItem from="1639910268788" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -193,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639389707855</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="unit tests commit">
+      <created>1639390563593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639390563593</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +243,8 @@
     <MESSAGE value="commit 3 REDUCER componet" />
     <MESSAGE value="commit 3 imutability rule" />
     <MESSAGE value="commit 3 reducer short" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3 reducer short" />
+    <MESSAGE value="unit tests commit" />
+    <MESSAGE value="unit memo commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit memo commit" />
   </component>
 </project>
