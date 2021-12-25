@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="very funny commit">
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.tsx" afterDir="false" />
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="Final commit">
+      <change afterPath="$PROJECT_DIR$/src/components/React.memo/useMemo.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -99,9 +105,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build-storybook" />
         <item itemvalue="npm.eject" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +134,9 @@
       <workItem from="1638693168871" duration="15231000" />
       <workItem from="1639301412974" duration="5070000" />
       <workItem from="1639484613197" duration="3215000" />
-      <workItem from="1639910268788" duration="2578000" />
+      <workItem from="1639910268788" duration="2857000" />
+      <workItem from="1640026357248" duration="772000" />
+      <workItem from="1640430409014" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639912222524</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Final commit">
+      <created>1639913061626</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639913061626</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +277,7 @@
     <MESSAGE value="unit memo commit" />
     <MESSAGE value="working commit" />
     <MESSAGE value="very funny commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="very funny commit" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
 </project>
