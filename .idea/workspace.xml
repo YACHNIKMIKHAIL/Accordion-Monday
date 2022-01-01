@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="useMemo commit">
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="LikeUseCallback commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/React.memo/useMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/React.memo/useMemo.stories.tsx" afterDir="false" />
     </list>
@@ -139,7 +139,7 @@
       <workItem from="1640430409014" duration="3643000" />
       <workItem from="1640541464868" duration="598000" />
       <workItem from="1640702240492" duration="40000" />
-      <workItem from="1641052855394" duration="301000" />
+      <workItem from="1641052855394" duration="2676000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640529135527</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LikeUseCallback commit">
+      <created>1641053412971</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1641053412971</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,18 +304,7 @@
     <MESSAGE value="Final commit" />
     <MESSAGE value="like memo commit" />
     <MESSAGE value="useMemo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="useMemo commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/React.memo/useMemo.stories.tsx</url>
-          <line>82</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="LikeUseCallback commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="LikeUseCallback commit" />
   </component>
 </project>
