@@ -79,3 +79,32 @@ export const HelpsForReactMemoExample = () => {
     </>
 
 }
+
+export const LikeUseCallback = () => {
+    console.log('LikeUseCallbackExample')
+    const [count, setCount] = useState<number>(0)
+    const [books, setBooks] = useState<Array<string>>(['React', 'JS', 'Redux'])
+
+    const newArray = useMemo(() => {
+        const newArray = books.filter(b => b.toLowerCase().indexOf('a') > -1)
+        return newArray
+    }, [books])
+
+    const addBook = () => {
+        setBooks([...books, 'Angular ' + new Date().getTime()])
+    }
+
+    return <>
+        <button onClick={() => setCount(count + 1)}>+</button>
+        <button onClick={() => addBook()}>add Book</button>
+        {count}
+        <Books books={newArray}/>
+    </>
+
+}
+
+const BooksSecret = (props: { books: Array<string> }) => {
+    console.log('Users secret rendering!')
+    return <div>{props.books.map((b, i) => <div key={i}>{b}</div>)}</div>
+}
+const Books = React.memo(BooksSecret)
