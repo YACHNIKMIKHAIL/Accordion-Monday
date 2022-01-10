@@ -41,3 +41,31 @@ export const SimpleExample = () => {
     </>
 
 }
+
+export const SetTimeoutExample = () => {
+    console.log('SetTimeoutExample render!')
+    const [fake, setFake] = useState<number>(100)
+    const [counter, setCounter] = useState<number>(1)
+
+    useEffect(() => {
+        // setTimeout(()=>{
+        //     document.title="bla=bla=bla"
+        //     console.log('Title changed')
+        // },2000)
+
+        setInterval(()=>{
+            console.log('tick'+counter)
+            // setCounter(counter+1)
+            setCounter(counter=> counter+1)
+        },1000)
+    }, [])
+
+
+
+    return <>
+        Hello, counter:{counter} -fake:{fake}
+        {/*<button onClick={() => setCounter(counter + 1)}>counter +</button>*/}
+        {/*<button onClick={() => setFake(fake + 1)}>fake +</button>*/}
+    </>
+
+}
