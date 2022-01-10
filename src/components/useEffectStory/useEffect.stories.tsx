@@ -47,19 +47,18 @@ export const SetTimeoutExample = () => {
     const [fake, setFake] = useState<number>(100)
     const [counter, setCounter] = useState<number>(1)
 
-    useEffect(() => {
-        // setTimeout(()=>{
-        //     document.title="bla=bla=bla"
-        //     console.log('Title changed')
-        // },2000)
-
-        setInterval(()=>{
-            console.log('tick'+counter)
-            // setCounter(counter+1)
-            setCounter(counter=> counter+1)
-        },1000)
-    }, [])
-
+    // useEffect(() => {
+    //     // setTimeout(()=>{
+    //     //     document.title="bla=bla=bla"
+    //     //     console.log('Title changed')
+    //     // },2000)
+    //
+    //     setInterval(() => {
+    //         console.log('tick' + counter)
+    //         // setCounter(counter+1)
+    //         setCounter(counter => counter + 1)
+    //     }, 1000)
+    // }, [])
 
 
     return <>
@@ -69,3 +68,4 @@ export const SetTimeoutExample = () => {
     </>
 
 }
+
