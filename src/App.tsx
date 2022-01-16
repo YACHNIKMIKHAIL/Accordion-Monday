@@ -6,6 +6,7 @@ import {Accordion} from "./components/Accordion/Accordion";
 import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {OnOffValueType} from "./components/OnOff/ControlledOnOff";
 import {UncontrolledOnOff} from "./components/UncontrolledOnOff/UncontrolledOnOff";
+import {Clock} from "./components/Clock/Clock";
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
             <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
             <UncontrolledAccordion titleValue={'Bla Bla'}/>
 
-
+            <Clock/>
         </div>
     );
 }
