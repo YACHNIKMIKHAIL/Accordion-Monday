@@ -24,20 +24,20 @@ function App() {
 
     return (
         <div className={'AppWrap'}>
-            <UncontrolledRating
-                onChange={function (value: RatingValueType): void {
-                    throw new Error('Function not implemented.');
-                }}/>
-            <Rating value={ratingValue} onClick={setRatingValue}/>
-            <Accordion titleValue={'MENU'}
-                       collapsed={accordionCollapsed}
-                       onClick={setAccordionCollapsed}
-                       items={[]}
-                       onChange={onChange}/>
+            {/*<UncontrolledRating*/}
+            {/*    onChange={function (value: RatingValueType): void {*/}
+            {/*        throw new Error('Function not implemented.');*/}
+            {/*    }}/>*/}
+            {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
+            {/*<Accordion titleValue={'MENU'}*/}
+            {/*           collapsed={accordionCollapsed}*/}
+            {/*           onClick={setAccordionCollapsed}*/}
+            {/*           items={[]}*/}
+            {/*           onChange={onChange}/>*/}
 
-            {/*<ControlledOnOff on={switchOn} change={setSwitchOn}/>*/}
-            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
-            <UncontrolledAccordion titleValue={'Bla Bla'}/>
+            {/*/!*<ControlledOnOff on={switchOn} change={setSwitchOn}/>*!/*/}
+            {/*<UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}*/}
+            {/*<UncontrolledAccordion titleValue={'Bla Bla'}/>*/}
 
             <Clock/>
         </div>

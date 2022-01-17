@@ -1,35 +1,45 @@
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from "react";
+import {ClockAnalog} from "./ClockAnalog/ClockAnalog";
 
-type ClockPropsType = {}
 
-function getTwoDigitsString(time: number) {
-    return time < 10
-        ? '0' + time
-        : time
-}
+export const Clock = () => {
+    const [time, setTime] = useState<string>("time")
+    const [type, setType] = useState<boolean>(false)
 
-export const Clock: React.FC<ClockPropsType> = (props) => {
-    const [date, setDate] = useState(new Date())
+    const changeTime = () => {
+        return new Date().toLocaleTimeString()
+    }
 
     useEffect(() => {
-        const intervalID = setInterval(() => {
-            console.log('tick inrerval')
-            setDate(new Date())
+        console.log('useEffect')
+
+        let interval = setInterval(() => {
+            console.log('setInterval_digital')
+            setTime(changeTime)
         }, 1000)
 
         return () => {
-            clearInterval(intervalID)
+            clearInterval(interval)
         }
+
     }, [])
 
+
+    const changeTypeTime = () => {
+        setType(!type)
+
+    }
+
     return (
+
         <div>
-            <span>{getTwoDigitsString(date.getHours())}</span>
-            :
-            <span>{getTwoDigitsString(date.getMinutes())}</span>
-            :
-            <span>{getTwoDigitsString(date.getSeconds())}</span>
+            <button onClick={changeTypeTime}>Analog || Digital</button>
+
+            {type ? <div>{time}</div> : <ClockAnalog/>}
         </div>
-    );
-};
+    )
+}
+
+
+
 
