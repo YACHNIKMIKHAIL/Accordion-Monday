@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="yspeh e commit">
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/ClockAnalog/ClockAnalog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/ClockAnalog/ClockAnalog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/ClockAnalog/clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="clock done commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +154,7 @@
       <workItem from="1642336561181" duration="2290000" />
       <workItem from="1642416062771" duration="27000" />
       <workItem from="1642416113967" duration="2592000" />
-      <workItem from="1642418811602" duration="6795000" />
+      <workItem from="1642418811602" duration="7122000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -331,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642424287652</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="clock done commit">
+      <created>1642425634940</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1642425634940</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +351,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit 1" />
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 2.0" />
     <MESSAGE value="commit 2.1" />
@@ -376,6 +375,7 @@
     <MESSAGE value="useEffect(()=&gt;{&#10;return Dimych kryt&#10;}, [always]) commitII" />
     <MESSAGE value="useEffect(()=&gt;{&#10;return Liza toge kryt&#10;}, []) commit" />
     <MESSAGE value="yspeh e commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="yspeh e commit" />
+    <MESSAGE value="clock done commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="clock done commit" />
   </component>
 </project>
