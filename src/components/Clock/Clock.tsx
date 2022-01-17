@@ -27,7 +27,6 @@ export const Clock = () => {
 
     const changeTypeTime = () => {
         setType(!type)
-
     }
 
     return (
