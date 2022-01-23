@@ -1,14 +1,22 @@
-import {useEffect, useState} from "react";
-import {ClockAnalog} from "./ClockAnalog/ClockAnalog";
+import React, {useEffect, useState} from "react";
+import {DigitalClockView} from "./DigitalClockView";
+import {AnalogClockView} from "./AnalogClockView";
 
-
-export const Clock = () => {
+type ClockPropsType = {
+    mode: 'digital' | 'analog'
+}
+export const Clock = ({mode}: ClockPropsType) => {
     const [time, setTime] = useState<string>("time")
     const [type, setType] = useState<boolean>(false)
+
+
+
 
     const changeTime = () => {
         return new Date().toLocaleTimeString()
     }
+
+
 
     useEffect(() => {
         console.log('useEffect')
@@ -28,17 +36,24 @@ export const Clock = () => {
     const changeTypeTime = () => {
         setType(!type)
     }
+    let view
+    switch (mode) {
+        case "analog":
+            view = <AnalogClockView date={date}/>
+            break
+        case "digital":
+        default:
+            <DigitalClockView date={date}/>
 
+            view = <div>{time}</div>
+    }
     return (
 
-        <div>
-            <button onClick={changeTypeTime}>Analog || Digital</button>
-
-            {type ? <div>{time}</div> : <ClockAnalog/>}
-        </div>
+        <div>{view}</div>
     )
 }
 
-
-
+export type DigitalClockViewPropsType = {
+    date: Date
+}
 
