@@ -1,4 +1,4 @@
-import {ClockAnalog} from "./ClockAnalogA";
+import {ClockAnalog} from "./ClockAnalog";
 
 export default {
     title:'ClockAnalog',

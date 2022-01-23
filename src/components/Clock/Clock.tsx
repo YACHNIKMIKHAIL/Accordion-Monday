@@ -6,11 +6,8 @@ type ClockPropsType = {
     mode: 'digital' | 'analog'
 }
 export const Clock = ({mode}: ClockPropsType) => {
-    const [time, setTime] = useState<string>("time")
+    const [time, setTime] = useState<string>('time')
     const [type, setType] = useState<boolean>(false)
-
-
-
 
     const changeTime = () => {
         return new Date().toLocaleTimeString()
@@ -39,11 +36,11 @@ export const Clock = ({mode}: ClockPropsType) => {
     let view
     switch (mode) {
         case "analog":
-            view = <AnalogClockView date={date}/>
+            view = <AnalogClockView date={new Date()}/>
             break
         case "digital":
         default:
-            <DigitalClockView date={date}/>
+            <DigitalClockView date={new Date()}/>
 
             view = <div>{time}</div>
     }
