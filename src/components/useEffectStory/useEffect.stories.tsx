@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {log} from "util";
 
 export default {
     title: 'useEffect.demo'
@@ -95,7 +96,7 @@ export const KeysTrackerExample = () => {
     useEffect(() => {
         const handler = (e: KeyboardEvent) => {
             console.log(e.key)
-            setText(state => state + e.key)
+            setText(text + e.key)
         }
 
         window.addEventListener('keypress', handler)
@@ -105,9 +106,28 @@ export const KeysTrackerExample = () => {
             window.removeEventListener('keypress', handler)
             console.log('Effect removed !')
         }
-    }, [])
+    }, [text])
     return <>
         Typed text Typed text: {text}
+
+    </>
+}
+
+export const SetThreeSecondsTimeoutExample = () => {
+    const [text, setText] = useState<string>("")
+    console.log('SetThreeSecondsTimeoutExample render with ' + text)
+
+    useEffect(() => {
+        const timeout = setTimeout(() => {
+            console.log('timeout EXPIRED!')
+            setText('3 sec passed')
+        }, 3000)
+        return () => {
+            clearTimeout(timeout)
+        }
+    }, [text])
+    return <>
+        Text: {text}
 
     </>
 }
