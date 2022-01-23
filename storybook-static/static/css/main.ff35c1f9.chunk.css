@@ -1,0 +1,19 @@
+select span.Select_main__1GovS{
+border: 1px black solid;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 40px;
+}
+.Select_items__2bMfY{
+    display: none;
+    position: absolute;
+    padding: 5px;
+    border: 1px black  solid;
+}
+.Select_item__3Bd6z .Select_selected__1jrHp{
+    background-color: blue;
+    color: white;
+}
+
+
+/*# sourceMappingURL=main.ff35c1f9.chunk.css.map*/

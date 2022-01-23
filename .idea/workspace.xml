@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="stories one more clock commit">
+    <list default="true" id="66115c6e-d10f-4b6c-88d3-c0961094d635" name="Changes" comment="harkdx commit">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/0.55b012452099ace2dca6.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/0.c271db2a.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/0.c271db2a.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/0.c271db2a.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/1.0f38715c61c7c3cd11db.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/1.27e46ccf.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/1.27e46ccf.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/1.27e46ccf.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/10.9f2923a7561bc20fffdb.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/11.f4e922583ae35da460f3.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/11.f4e922583ae35da460f3.manager.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/12.1415460941f0bdcb8fa8.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/2.cb2bbbb2.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/3.8bb2173c.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/5.f459d151315e6780c20f.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/5.f459d151315e6780c20f.manager.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/6.3bd64d820f3745f262ff.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/7.3d04765dbf3f1dcd706c.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/7.4708019c.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/8.91de97de.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/8.91de97de.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/8.91de97de.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/8.b541eadfcb9164835dfc.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/9.40ec65d6.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/9.411ac8e451bbb10926c7.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/main.1b4ffdef.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/main.38088ac45f83b6428148.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.8c14f783.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/runtime~main.9468098d21070636985f.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/css/main.ff35c1f9.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/static/css/main.ff35c1f9.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.a935f15a2179a6eff5fd.manager.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.a935f15a2179a6eff5fd.manager.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.cbb56076.iframe.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.cbb56076.iframe.bundle.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storybook-static/vendors~main.cbb56076.iframe.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/AnalogClockView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/useEffectStory/useEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/useEffectStory/useEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +208,7 @@
       <workItem from="1642416113967" duration="2592000" />
       <workItem from="1642418811602" duration="7408000" />
       <workItem from="1642432584078" duration="25000" />
-      <workItem from="1642927736490" duration="4175000" />
+      <workItem from="1642927736490" duration="6598000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1637930624160</created>
@@ -354,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642931702751</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="harkdx commit">
+      <created>1642932701525</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1642932701525</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit 2.1" />
     <MESSAGE value="commit 2.2!" />
     <MESSAGE value="commit 2.3" />
     <MESSAGE value="commit 3 start" />
@@ -399,6 +450,7 @@
     <MESSAGE value="clock done commit" />
     <MESSAGE value="storie commit" />
     <MESSAGE value="stories one more clock commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="stories one more clock commit" />
+    <MESSAGE value="harkdx commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="harkdx commit" />
   </component>
 </project>
